@@ -3,7 +3,7 @@ html, body {
   padding: 0;
   height: 100%;
   overflow: hidden;
-  cursor: url('images/cursor.png'), auto;
+  cursor: url('images/cursor.png') 16 16, auto;
 }
 
 .wrap {
@@ -32,6 +32,7 @@ html, body {
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
+  cursor: url('images/cursor.png') 16 16, pointer;
 }
 
 .btn img {
