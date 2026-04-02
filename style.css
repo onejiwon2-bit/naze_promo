@@ -99,7 +99,7 @@ html, body {
 
   font-family: sans-serif;
   font-size: clamp(8px, 0.8vw, 12px);
-  color: rgba(255,255,255,0.7);
+  color: rgba(0,0,0,1);
 
   text-align: center;
   line-height: 1.4;
