@@ -75,7 +75,9 @@ html, body {
 
 /* 모바일 대응 */
 @media (max-width: 768px) {
-
+  .buttons {
+    transform: translateY(-5%);
+  }
   .btn img {
     width: clamp(200px, 50vw, 300px);
   }
