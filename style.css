@@ -85,7 +85,12 @@ html, body {
   .btn1 { top: 35%; left: 55%; }
   .btn2 { top: 55%; left: 40%; }
   .btn3 { top: 75%; left: 55%; }
-
+  
+  .footer-logo {
+    width: 20vw;
+    max-width: 70px;
+    min-width: 40px;
+  }
 }
 
 .footer-text {
