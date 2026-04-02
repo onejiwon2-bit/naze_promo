@@ -111,5 +111,5 @@ html, body {
   display: block;
   margin: 0 auto 6px;
 
-  width: clamp(30px, 5vw, 60px);
+  width: clamp(20px, 4vw, 40px);
 }
