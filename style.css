@@ -87,9 +87,9 @@ html, body {
   .btn3 { top: 75%; left: 55%; }
   
   .footer-logo {
-    width: 20vw;
-    max-width: 70px;
-    min-width: 40px;
+    width: 18vw;
+    max-width: 60px;
+    min-width: 30px;
   }
 }
 
@@ -116,8 +116,8 @@ html, body {
   display: block;
   margin: 0 auto 6px;
 
-  width: 12vw;
-  max-width: 80px;
-  min-width: 40px;
+  width: 10vw;
+  max-width: 65px;
+  min-width: 32px;
   height: auto;
 }
