@@ -37,21 +37,21 @@ html, body {
 
 /* 위치 (PC) */
 .btn1 {
-  top: 45%;
-  left: 30%;
-  transform: translate(-50%, -50%) rotate(-6deg);
+  top: 30%;
+  left: 60%;
+  transform: translate(-50%, -50%) rotate(-2deg);
 }
 
 .btn2 {
   top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(2deg);
+  left: 40%;
+  transform: translate(-50%, -50%) rotate(-6deg);
 }
 
 .btn3 {
-  top: 65%;
-  left: 70%;
-  transform: translate(-50%, -50%) rotate(6deg);
+  top: 70%;
+  left: 65%;
+  transform: translate(-50%, -50%) rotate(5deg);
 }
 
 /* hover 효과 */
@@ -65,6 +65,10 @@ html, body {
   transform: translateY(-2px);
 }
 
+.btn:hover {
+  z-index: 10;
+}
+
 /* 📱 모바일 대응 */
 @media (max-width: 768px) {
 
@@ -72,19 +76,8 @@ html, body {
     width: 150px;
   }
 
-  .btn1 {
-    top: 42%;
-    left: 50%;
-  }
-
-  .btn2 {
-    top: 58%;
-    left: 50%;
-  }
-
-  .btn3 {
-    top: 74%;
-    left: 50%;
-  }
+  .btn1 { top: 35%; left: 55%; }
+  .btn2 { top: 55%; left: 50%; }
+  .btn3 { top: 75%; left: 55%; }
 
 }
